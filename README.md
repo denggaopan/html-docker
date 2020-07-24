@@ -33,3 +33,7 @@ docker push denggaopan/comingsoon:latest
 
 docker run -d -p 50000:80 --name comingsoon_1 denggaopan/comingsoon:latest
 
+### view in chrome
+
+http://localhost:50000
+
