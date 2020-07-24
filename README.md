@@ -25,13 +25,13 @@ docker login
 
 ### step 6
 
-docker tag comingsoon:latest <yourname>/comingsoon:latest
+docker tag comingsoon:latest yourname/comingsoon:latest
 
 docker push <yourname>/comingsoon:latest
 
 ### step 7
 
-docker run -d -p 50000:80 --name comingsoon_1 <yourname>/comingsoon:latest
+docker run -d -p 50000:80 --name comingsoon_1 yourname/comingsoon:latest
   
 
 #### or use denggaopan/comingsoon
