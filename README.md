@@ -34,7 +34,7 @@ docker push <yourname>/comingsoon:latest
 docker run -d -p 50000:80 --name comingsoon_1 yourname/comingsoon:latest
   
 
-#### or use denggaopan/comingsoon
+#### or
 
 docker run -d -p 50000:80 --name comingsoon_1 denggaopan/comingsoon:latest
   
